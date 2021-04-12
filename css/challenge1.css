@@ -1,0 +1,32 @@
+/* Itération 1*/
+#outside {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    padding: 45px;
+  }
+  
+  #inside {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 3px dashed black;
+    box-sizing: border-box;
+    padding: 45px;
+  }
+
+/* Itération 2 */
+  table {
+    height: 150px;
+    width: 300px;
+  }
+  
+  td {
+    border: 2px solid black;
+  }
+  
+  tr:nth-child(2) td:nth-child(odd) {
+    background: darkturquoise;
+  }
